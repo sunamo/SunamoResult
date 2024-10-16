@@ -4,7 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Description>Result classes for convert methods with ref/out to async and more </Description>
-    <Version>24.10.16.1</Version>
+    <Version>24.10.16.2</Version>
     <PackageReleaseNotes>First code</PackageReleaseNotes>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
