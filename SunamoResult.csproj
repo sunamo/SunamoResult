@@ -4,13 +4,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Description>Result classes for convert methods with ref/out to async and more </Description>
-    <Version>24.11.12.2</Version>
-    <PackageReleaseNotes>Fix empty string for spaces</PackageReleaseNotes>
+    <Version>24.12.21.1</Version>
+    <PackageReleaseNotes>Make property upper-case</PackageReleaseNotes>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageProjectUrl>https://sunamo.cz/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/sunamo/SunamoResult.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 </Project>

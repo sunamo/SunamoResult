@@ -6,18 +6,18 @@ public class ResultWithException<T>
     ///     only string, because Message property isn't editable after instatiate
     ///     Usage: FubuCsprojFile
     /// </summary>
-    public string? exc { get; set; }
+    public string? Exc { get; set; }
     public ResultWithException(T data)
     {
         Data = data;
     }
     public ResultWithException(string exc)
     {
-        this.exc = exc;
+        this.Exc = exc;
     }
     public ResultWithException(Exception exc)
     {
-        this.exc = exc.Message;
+        this.Exc = exc.Message;
     }
     /// <summary>
     /// Pro případ že data josu string což je typ i exception
