@@ -4,7 +4,6 @@ public class ResultWithException<T>
     public T? Data { get; set; }
     /// <summary>
     ///     only string, because Message property isn't editable after instatiate
-    ///     Usage: FubuCsprojFile
     /// </summary>
     public string? Exc { get; set; }
     public ResultWithException(T data)
@@ -20,7 +19,7 @@ public class ResultWithException<T>
         this.Exc = exc.Message;
     }
     /// <summary>
-    /// Pro případ že data josu string což je typ i exception
+    /// In case the data is a string which is also an exception type
     /// </summary>
     public ResultWithException()
     {
