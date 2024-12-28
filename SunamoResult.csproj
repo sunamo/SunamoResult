@@ -4,8 +4,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Description>Result classes for convert methods with ref/out to async and more </Description>
-    <Version>24.12.21.1</Version>
-    <PackageReleaseNotes>Make property upper-case</PackageReleaseNotes>
+    <Version>24.12.28.1</Version>
+    <PackageReleaseNotes>Added class</PackageReleaseNotes>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageProjectUrl>https://sunamo.cz/</PackageProjectUrl>
