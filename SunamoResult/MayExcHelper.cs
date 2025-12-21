@@ -1,6 +1,7 @@
+namespace SunamoResult;
+
 // EN: Variable names have been checked and replaced with self-descriptive names
 // CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
-namespace SunamoResult;
 public class MayExcHelper
 {
     public static bool MayExc(string exc)
