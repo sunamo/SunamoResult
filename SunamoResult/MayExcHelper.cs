@@ -1,15 +1,20 @@
 namespace SunamoResult;
 
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
+/// <summary>
+/// Helper class for checking and logging exception messages from <see cref="ResultWithException{T}"/>.
+/// </summary>
 public class MayExcHelper
 {
-    public static bool MayExc(string exc)
+    /// <summary>
+    /// Checks if the exception message is non-null, logs it to console if present, and returns whether an exception occurred.
+    /// </summary>
+    /// <param name="exceptionMessage">The exception message to check.</param>
+    /// <returns><c>true</c> if the exception message is non-null; otherwise, <c>false</c>.</returns>
+    public static bool HasException(string? exceptionMessage)
     {
-        if (exc != null)
+        if (exceptionMessage != null)
         {
-            Console.WriteLine(exc);
-            //ThisApp.Error( result.exc);
+            Console.WriteLine(exceptionMessage);
             return true;
         }
 

@@ -1,10 +1,14 @@
 namespace SunamoResult;
 
+/// <summary>
+/// Collection of <see cref="ResultWithException{T}"/> results, providing aggregate error checking.
+/// </summary>
+/// <typeparam name="T">The type of the result data in each element.</typeparam>
 public class ResultWithExceptionList<T> : List<ResultWithException<T>>
 {
     /// <summary>
-    /// Všechny chyby se musí logovat přesně tam kde vznikly
-    /// Tohle už slouží jen abych věděl že data jsou nekompletní. 
+    /// Gets a value indicating whether any result in the collection has an exception.
+    /// All errors must be logged exactly where they occur; this property only indicates that data is incomplete.
     /// </summary>
-    public bool WasSomeError { get => this.Any(d => d.Exc != null); }
+    public bool HasAnyError { get => this.Any(result => result.ExceptionMessage != null); }
 }
