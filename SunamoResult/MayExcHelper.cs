@@ -12,7 +12,7 @@ public class MayExcHelper
     /// <returns><c>true</c> if the exception message is non-null; otherwise, <c>false</c>.</returns>
     public static bool HasException(string? exceptionMessage)
     {
-        if (exceptionMessage != null)
+        if (exceptionMessage is not null)
         {
             Console.WriteLine(exceptionMessage);
             return true;
