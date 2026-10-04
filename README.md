@@ -1,5 +1,10 @@
 # SunamoResult
 
+## Short description
+
+Třídy výsledků pro převod metod s ref/out na asynchronní podobu a další podobné případy. Obsahuje Runner a testy.
+
+
 Result classes for convert methods with ref/out to async and more
 
 ## Overview
