@@ -1,9 +1,5 @@
 namespace SunamoResult;
 
-/// <summary>
-/// Collection of <see cref="ResultWithException{T}"/> results, providing aggregate error checking.
-/// </summary>
-/// <typeparam name="T">The type of the result data in each element.</typeparam>
 public class ResultWithExceptionList<T> : List<ResultWithException<T>>
 {
     /// <summary>
