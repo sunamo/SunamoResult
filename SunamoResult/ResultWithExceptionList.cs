@@ -1,5 +1,8 @@
 namespace SunamoResult;
 
+/// <summary>
+/// Represents the result with exception list t type.
+/// </summary>
 public class ResultWithExceptionList<T> : List<ResultWithException<T>>
 {
     /// <summary>
